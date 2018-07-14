@@ -1,0 +1,21 @@
+{
+  "name": "GitHub Thread Expander",
+  "version": "1.0",
+  "description": "Expand a GitHub PR to show all comments and outdated comments",
+  "manifest_version": 2,
+  "author": "Marc Maniez",
+
+  "page_action": {
+    "default_icon": "marc.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "activeTab",
+    "declarativeContent"
+  ]
+}
