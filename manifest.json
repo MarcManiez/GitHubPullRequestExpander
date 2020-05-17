@@ -1,21 +1,22 @@
 {
-  "name": "GitHub Thread Expander",
-  "version": "1.0",
-  "description": "Load and expand all comments on a GitHub PR.",
-  "manifest_version": 2,
-  "author": "Marc Maniez",
+	"name": "GitHub Thread Expander",
+	"version": "1.0",
+	"description": "Load and expand all comments on a GitHub PR.",
+	"manifest_version": 2,
+	"author": "Marc Maniez",
 
-  "page_action": {
-    "default_icon": "marc.png"
-  },
+	"page_action": {
+		"default_icon": "marc.png"
+	},
 
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+	"icons": {
+		"128": "marc.png"
+	},
 
-  "permissions": [
-    "activeTab",
-    "declarativeContent"
-  ]
+	"background": {
+		"scripts": [ "background.js" ],
+		"persistent": false
+	},
+
+	"permissions": [ "activeTab", "declarativeContent" ]
 }
