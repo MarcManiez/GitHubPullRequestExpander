@@ -4,7 +4,7 @@ const openingAllComments = setInterval(() => {
     loadMoreButton.click()
   } else {
     clearInterval(openingAllComments)
-    const outDatedComments = document.querySelectorAll('.show-outdated-button')
+    const outDatedComments = document.querySelectorAll('.Details-content--closed')
     if (outDatedComments && outDatedComments.length > 0) {
       outDatedComments.forEach(comment => comment.click())
     }
